@@ -1,5 +1,11 @@
 import React from 'react';
-import { View, StyleSheet, Text } from 'react-native';
+import { 
+    View, 
+    StyleSheet, 
+    Text 
+} from 'react-native';
+
+import Button from './components/Button';
 
 const App = () => {
     return (
@@ -7,6 +13,8 @@ const App = () => {
             <Text style={ styles.text }>
                 Go 4all
             </Text>
+
+            <Button />
         </View>
     )
 }
@@ -18,7 +26,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     text: {
-        fontSize: 20
+        fontSize: 20,
+        marginBottom: 20
     }
 });
 
