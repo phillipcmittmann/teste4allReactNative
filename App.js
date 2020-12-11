@@ -4,7 +4,7 @@ import { View, StyleSheet, Text } from 'react-native';
 const App = () => {
     return (
         <View style={ styles.container }>
-            <Text style={ styles.texto }>
+            <Text style={ styles.text }>
                 Go 4all
             </Text>
         </View>
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center'
     },
-    texto: {
+    text: {
         fontSize: 20
     }
 });
