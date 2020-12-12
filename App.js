@@ -8,7 +8,7 @@ import {
 import Button from './components/Button';
 
 const App = () => {
-    const [timestamp, setTimestamp] = useState('');
+    const [timestamp, setTimestamp] = useState('0');
     const [backgroundColor, setBackgroundColor] = useState('white');
 
     const changeBackgroundColor = () => {
@@ -61,7 +61,7 @@ const App = () => {
             </Text>
 
             <Button
-                onPress={() => changeBackgroundColor()}
+                onPress={changeBackgroundColor}
             />
         </View>
     )
